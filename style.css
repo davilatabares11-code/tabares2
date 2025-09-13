@@ -1,0 +1,60 @@
+/* Fuente general */
+body {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.6;
+  background-color: #0d0d0d; /* Fondo negro */
+  color: #f5f5f5; /* Texto claro */
+}
+
+/* Titulares */
+h1, h2, h3, h5 {
+  font-family: 'Poppins', sans-serif;
+  color: #9b59b6; /* Morado vibrante */
+}
+
+/* Navbar */
+.navbar {
+  background: linear-gradient(90deg, #6a0dad, #0d0d0d);
+}
+
+/* Hero */
+.hero {
+  height: 80vh;
+  background: linear-gradient(to right, #6a0dad, #0d0d0d), 
+              url("img/hero.jpg") no-repeat center center;
+  background-size: cover;
+  color: white;
+  text-shadow: 2px 2px 6px rgba(0,0,0,0.7);
+}
+
+/* Sección de servicios */
+#servicios {
+  background: linear-gradient(135deg, #0d0d0d, #6a0dad);
+  color: #fff;
+  padding: 60px 20px;
+  border-radius: 10px;
+}
+
+/* Tarjetas */
+.card {
+  border-radius: 15px;
+  background: #1a1a1a;
+  color: #fff;
+  box-shadow: 0px 4px 15px rgba(106, 13, 173, 0.3);
+  transition: transform 0.3s ease;
+}
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 6px 20px rgba(155, 89, 182, 0.5);
+}
+
+/* Botones */
+.btn-primary {
+  background: linear-gradient(45deg, #9b59b6, #6a0dad);
+  border: none;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+.btn-primary:hover {
+  background: linear-gradient(45deg, #6a0dad, #0d0d0d);
+}
